@@ -22,7 +22,3 @@ var sum_to_n_c = function(n) {
 
     return sum_to_n_c(n-1) + n;
 };
-
-
-
-console.log(sum_to_n_c(-1));
